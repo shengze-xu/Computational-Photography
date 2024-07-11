@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Track">
+      <UniqueIdentifier>{d5083e7f-edb1-45d7-9a9e-32a45741c6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{cbfefd5b-393d-42a0-b287-fc951e81fdad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZImage">
+      <UniqueIdentifier>{3f14c906-a325-42d4-9b21-9b5be9488d96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Track\MatchSet.h">
+      <Filter>Track</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\FileParser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\TrackFileParser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\VDRStructureMotion.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\VDRVideoFrame.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\CameraParameters.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ZImage\ZImage.h">
+      <Filter>ZImage</Filter>
+    </ClInclude>
+    <ClInclude Include="ZImage\ZImageUtil.h">
+      <Filter>ZImage</Filter>
+    </ClInclude>
+    <ClInclude Include="Track\MatchLinker.h">
+      <Filter>Track</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\FileNameFunctions.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DepthRecoveryProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Track\MatchSet.cpp">
+      <Filter>Track</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser\FileParser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser\TrackFileParser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser\VDRStructureMotion.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser\VDRVideoFrame.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser\CameraParameters.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="ZImage\ZImage.cpp">
+      <Filter>ZImage</Filter>
+    </ClCompile>
+    <ClCompile Include="ZImage\ZImageUtil.cpp">
+      <Filter>ZImage</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadLibs.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser\FileNameFunctions.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
